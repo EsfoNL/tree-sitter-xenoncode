@@ -88,6 +88,13 @@ module.exports = grammar({
       $.function_call,
       $.if,
       $.return,
+      $.while,
+    ),
+
+    while: $ => seq(
+      "while",
+      $._expression,
+      $.block
     ),
 
     return: $ => seq(

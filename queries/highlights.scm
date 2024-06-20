@@ -12,6 +12,7 @@
   "return"
   "recursive"
   "init"
+  "while"
 ] @keyword
 (inbuilt) @function
 (string) @string
