@@ -1,0 +1,11 @@
+===================
+Top level variables
+===================
+
+storage var $number: number
+
+```
+
+(source_file
+	()
+)
